@@ -1,0 +1,45 @@
+# === Visual Studio & MsBuild (C / C#) ===
+.vs/
+[Bb]in/
+[Oo]bj/
+*.user
+*.suo
+*.pdb
+*.ilk
+*.aps
+*.ncb
+*.opendb
+*.VC.db
+*.sln.ghost
+*.cache
+*.db
+
+# === Binaires & Bibliothèques (C / C++) ===
+# On ne garde que le code, pas les exécutables générés
+*.exe
+*.dll
+*.lib
+*.obj
+*.out
+*.app
+*.sys
+*.exp
+
+# === Python (Moteur d'analyse) ===
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+.env
+.pytest_cache/
+.ipynb_checkpoints/
+
+# === Système et Divers ===
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.bak
+*.swp
