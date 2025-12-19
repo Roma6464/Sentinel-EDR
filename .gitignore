@@ -14,8 +14,15 @@
 *.cache
 *.db
 
+# === Dossiers de sortie C++ (Indispensable pour Interceptor/Agent) ===
+x64/
+x86/
+ARM64/
+Debug/
+Release/
+
 # === Binaires & Bibliothèques (C / C++) ===
-# On ne garde que le code, pas les exécutables générés
+# On ne garde que le code source, pas les fichiers générés
 *.exe
 *.dll
 *.lib
@@ -24,17 +31,9 @@
 *.app
 *.sys
 *.exp
-
-# === Python (Moteur d'analyse) ===
-__pycache__/
-*.py[cod]
-*$py.class
-.venv/
-venv/
-ENV/
-.env
-.pytest_cache/
-.ipynb_checkpoints/
+*.pch
+*.tlog
+*.lastbuildstate
 
 # === Système et Divers ===
 .DS_Store
