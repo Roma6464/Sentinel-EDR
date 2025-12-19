@@ -6,7 +6,7 @@
 
 int __stdcall WinMain(HINSTANCE hIstance,HINSTANCE hPrevInstance,LPSTR lpCmdLine,int nCmdShow)
 {
-    HMODULE hDLL = LoadLibrary("vhook.dll");
+    HMODULE hDLL = LoadLibrary(L"vhook.dll");
     if(hDLL == NULL)
     {
         return 1;
