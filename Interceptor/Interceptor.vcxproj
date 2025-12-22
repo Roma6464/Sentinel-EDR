@@ -24,7 +24,7 @@
     <ProjectGuid>{9b255f70-0823-40ac-86d5-7f4e80b622f9}</ProjectGuid>
     <RootNamespace>Interceptor</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>Injecteur</ProjectName>
+    <ProjectName>Sentinel.Agent</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

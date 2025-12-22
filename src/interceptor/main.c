@@ -4,14 +4,14 @@
 
 
 
-int __stdcall WinMain(HINSTANCE hIstance,HINSTANCE hPrevInstance,LPSTR lpCmdLine,int nCmdShow)
+int __stdcall WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine, int nCmdShow)
 {
-    HMODULE hDLL = LoadLibrary(L"vhook.dll");
+    HMODULE hDLL = LoadLibraryW(L"Sentinel.Hook.dll");
     if(hDLL == NULL)
     {
         return 1;
     }
-    Sleep(2000);
+    Sleep(500000);
 
 
 
