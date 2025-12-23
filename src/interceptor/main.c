@@ -6,8 +6,9 @@
 
 int main()
 {
+    HMODULE hDLL = LoadLibraryW(L"Sentinel.Hook.dll");
     // Utilise le double antislash \\ pour les chemins en C
-    HMODULE hDLL = LoadLibraryW(L"C:\\Users\\admin_edr\\Documents\\GitHub\\Sentinel-EDR\\Sentinel-EDR\\x64\\Debug\\Sentinel.Hook.dll");
+    //HMODULE hDLL = LoadLibraryW(L"C:\\Users\\admin_edr\\Documents\\GitHub\\Sentinel-EDR\\Sentinel-EDR\\x64\\Debug\\Sentinel.Hook.dll");
     if(hDLL == NULL)
     {
         printf("Error : %lu\n", GetLastError());

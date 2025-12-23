@@ -184,7 +184,7 @@ void InitializeHooks()
         printf("[ERREUR] Impossible d'activer les hooks : %s\n", MH_StatusToString(status));
     }
     else {
-        printf("[SENTINEL] Tous les hooks sont actifs. Surveillance en cours...\n");
+        printf("EDR : Tous les hooks sont actifs. Surveillance en cours...\n");
     }
 }
 
